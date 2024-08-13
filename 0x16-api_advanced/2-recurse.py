@@ -23,7 +23,7 @@ def recurse(subreddit: str, hot_list=[], after="", count=0) -> list:
     """
     request_url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
-        "User-Agent": "I'll use a Real user Agent next I promise"
+        "User-Agent": "I'll next time use a Real user Agent next I promise"
     }
     query_strings = {
         "after": after,
